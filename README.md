@@ -18,7 +18,7 @@ This is developed using spring-boot and the database used is H2 Db, The data is 
 java -jar FS_SEARCH-0.0.1-SNAPSHOT
 ```
 
-###EndPoint
+### EndPoint
 
 GET /suggest
 
@@ -28,15 +28,17 @@ parameter type 	   |name | type	 |
 query  param   	   | q	 | String|
 ----------------------------------
 
-###Request sample
+### Request sample
 ```
 GET localhost:3000/suggest?q=wa
 ```
 
-###Sample response
+### Sample response
+```
 status:200
 responsebody:
 [{"FIPS":53001,"STATE":"WA","NAME":"Adams"},{"FIPS":53003,"STATE":"WA","NAME":"Asotin"},{"FIPS":53005,"STATE":"WA","NAME":"Benton"},{"FIPS":53007,"STATE":"WA","NAME":"Chelan"},{"FIPS":53009,"STATE":"WA","NAME":"Clallam"}]
+```
 
 
 
