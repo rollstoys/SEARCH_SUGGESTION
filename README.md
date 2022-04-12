@@ -23,9 +23,9 @@ java -jar FS_SEARCH-0.0.1-SNAPSHOT
 GET /suggest
 
 ---------------------------------
-parameter type 	   |name | type	 |
----------------------------------|
-query  param   	   | q	 | String|
+parameter type 	   |name | type	
+--------------------------------
+query  param   	   | q	 | String
 ----------------------------------
 
 ### Request sample
