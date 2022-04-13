@@ -22,6 +22,7 @@ java -jar FS_SEARCH-0.0.1-SNAPSHOT
 
 GET /suggest
 
+
 |parameter type 	   |name | type	|
 |------------------	   |-----|------|
 |query  param   	   | q	 | String|
@@ -37,6 +38,16 @@ GET localhost:3000/suggest?q=wa
 status:200
 responsebody:
 [{"FIPS":53001,"STATE":"WA","NAME":"Adams"},{"FIPS":53003,"STATE":"WA","NAME":"Asotin"},{"FIPS":53005,"STATE":"WA","NAME":"Benton"},{"FIPS":53007,"STATE":"WA","NAME":"Chelan"},{"FIPS":53009,"STATE":"WA","NAME":"Clallam"}]
+```
+
+
+## DB
+```
+### Login details
+url: http://localhost:3000/h2-console/
+jdbc url: jdbc:h2:mem:searchapp
+user name: sa
+password:
 ```
 
 
